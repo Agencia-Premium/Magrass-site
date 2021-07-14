@@ -3,8 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export default createGlobalStyle`
     :root {
     background: #ffffff;
-    
-    font: 400 62.25% "poppis", sans-serif;
+    font-size: 62.5%;
   } 
 
   html, body, div, span, applet, object, iframe,
@@ -33,7 +32,8 @@ export default createGlobalStyle`
     display: block;
   }
   body {
-      
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
   }
   ol, ul {
     list-style: none;
