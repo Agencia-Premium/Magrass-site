@@ -2,39 +2,58 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  padding-bottom: 10rem;
+  height: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  background-color: #d6d6d6;
+  margin-top: 6rem;
+  flex-direction: column;
+  justify-content: center;
 
-  .containerText {
-    margin: 10rem 0 5rem 0;
-    width: 80%;
+  .content {
+    @media screen and (min-width: 1100px) {
+      display: flex;
+      width: 100%;
+    }
+  }
+
+  .description {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: justify;
-
-    .title--text {
-      margin-bottom: 1.2rem;
-      font-size: 2.6rem;
-      font-weight: 700;
-      line-height: 54px;
-    }
-    .subtitle {
-      width: 100%;
-      font-size: 1.4rem;
+    h1 {
+      font-size: 2.4rem;
       text-align: center;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    p {
+      text-align: center;
+      padding: 0.9rem 4rem;
+      font-size: 1.6rem;
 
       span {
         color: #00b5b3;
+        font-weight: bold;
       }
     }
   }
+
+  .formulario {
+    width: 100%;
+    padding: 0 2rem;
+
+    @media screen and (min-width: 1200px) {
+      width: 60rem;
+    }
+  }
+
+  h2 {
+    color: #00b5b3;
+    font-size: 1.8rem;
+    margin: 2rem 0;
+  }
 `;
+
 export const CardContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -56,5 +75,10 @@ export const CardContainer = styled.div`
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
     padding: 0;
+  }
+
+  @media screen and (min-width: 1100px) {
+    display: flex;
+    flex-direction: column;
   }
 `;

@@ -4,6 +4,8 @@ import HomePage from "../Template/Home/index";
 import NavBar from "../Components/NavBar";
 import Sobre from "../Template/Sobre";
 import Metodo from "../Template/Metodos";
+import Contato from "../Template/Contato";
+import Presente from "../Template/Presente";
 
 const Home: React.FC = () => {
   return (
@@ -18,6 +20,8 @@ const Home: React.FC = () => {
         <HomePage />
         <Sobre />
         <Metodo />
+        <Presente />
+        <Contato />
       </main>
     </div>
   );

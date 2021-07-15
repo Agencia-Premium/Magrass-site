@@ -8,7 +8,7 @@ export const Container = styled.div`
   /* background-color: aqua; */
 
   .container--text {
-    margin-top: 2rem;
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,20 +28,20 @@ export const Container = styled.div`
     }
 
     .Image {
-      margin-top: 2rem;
+      margin-top: 2.5rem;
       width: 100%;
-      height: 10rem;
-      /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 81%); */
+      height: 30rem;
       background-image: url("./moca.png");
       background-position: center;
+      background-size: contain;
       background-repeat: no-repeat;
       background-size: cover;
-      border-radius: 0.2rem;
+      border-radius: 0.5rem;
     }
 
     .subtitulo {
       margin-top: 2.7rem;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       line-height: 2.3rem;
       text-align: justify;
       color: #767676;
