@@ -19,6 +19,12 @@ export const Container = styled.div`
   @media screen and (max-width: 870px) {
     width: 28rem;
   }
+  @media screen and (min-width: 1400px) {
+    span {
+      font-size: 1.3rem;
+      font-weight: 500;
+    }
+  }
   .card {
     padding: 2rem;
 

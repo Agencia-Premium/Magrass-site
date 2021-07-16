@@ -48,6 +48,9 @@ export const Container = styled.div`
   }
   @media screen and (min-width: 1024px) {
     .description {
+      h1 {
+        font-size: 3.8rem;
+      }
       p {
         width: 80%;
         font-size: 1.8rem;

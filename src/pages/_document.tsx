@@ -58,7 +58,7 @@ export default class MyDocument extends Document {
             }}
           />
         </Head>
-        <link rel="icon" href="https://rocketseat.com.br/favicon.ico" />
+        <link rel="icon" href="./favicon.svg" />
         <body>
           <noscript
             dangerouslySetInnerHTML={{

@@ -48,6 +48,9 @@ export const Container = styled.div`
     .Container--Text {
       display: flex;
       align-items: center;
+      .text--Title {
+        font-size: 3.6rem;
+      }
       .text--Description {
         font-size: 1.8rem;
         line-height: 2.4rem;

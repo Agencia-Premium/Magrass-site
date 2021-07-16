@@ -134,6 +134,13 @@ export const Container = styled.div`
     }
   }
   @media screen and (min-width: 1400px) {
+    .containerSobre {
+      .text--titulo {
+        margin: 5rem;
+        font-size: 3.6rem;
+      }
+    }
+
     .containerDirections {
       .Right {
         .TextSobre {
