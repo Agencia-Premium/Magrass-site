@@ -12,7 +12,7 @@ const Home: React.FC = () => {
   return (
     <div>
       <Head>
-        <title>Formulário Padrão</title>
+        <title>MagraSS Ji-Paraná</title>
       </Head>
 
       <header>
