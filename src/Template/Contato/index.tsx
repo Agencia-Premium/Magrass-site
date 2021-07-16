@@ -16,6 +16,9 @@ export default function Contato() {
         </div>
 
         <div className="content">
+          <div className="formulario">
+            <Form />
+          </div>
           <CardContainer>
             <h2>Lojas Magrass</h2>
             <Location
@@ -42,10 +45,6 @@ export default function Contato() {
               linkMaps="https://goo.gl/maps/tp5UvSd8qn6X9Qu59"
             />
           </CardContainer>
-
-          <div className="formulario">
-            <Form />
-          </div>
         </div>
       </Container>
     </>

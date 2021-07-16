@@ -43,14 +43,8 @@ export const Container = styled.div`
     padding: 0 2rem;
 
     @media screen and (min-width: 1200px) {
-      width: 60rem;
+      width: 60%;
     }
-  }
-
-  h2 {
-    color: #00b5b3;
-    font-size: 1.8rem;
-    margin: 2rem 0;
   }
 `;
 
@@ -60,6 +54,13 @@ export const CardContainer = styled.div`
   gap: 2.5rem;
   padding: 0 2rem;
   margin: 0 auto;
+
+  h2 {
+    color: #00b5b3;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 2rem 0;
+  }
 
   @media screen and (max-width: 1300px) {
     grid-template-columns: repeat(2, 1fr);

@@ -58,8 +58,6 @@ export default function Form() {
   }
 
   function sendWhatsapp() {
-    console.log("apertou");
-
     if (validationForm) {
       const message = `Olá, meu nome é *${name}*, sou de *${city}*. Tenho interesse em fazer o seguinte tratamento: *${treatment}*, na seguinte cidade: *${unity}*`;
 
