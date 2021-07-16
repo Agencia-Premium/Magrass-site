@@ -17,10 +17,10 @@ export const MenuMobile: React.FC<MenuMobileProps> = ({ isOpen, toggle }) => {
         </Icon>
         <MenuWrapper>
           <Menu>
-            <LinkMenu href="/">Método MagraSS</LinkMenu>
-            <LinkMenu href="/about">Sobre</LinkMenu>
-            <LinkMenu href="/services">Depoimentos</LinkMenu>
-            <LinkMenu href="/contact">Contato</LinkMenu>
+            <LinkMenu href="#metodo-magras">Método MagraSS</LinkMenu>
+            <LinkMenu href="#sobre">Sobre</LinkMenu>
+            <LinkMenu href="#presente">Presente MagraSS</LinkMenu>
+            <LinkMenu href="#contato">Contato</LinkMenu>
           </Menu>
         </MenuWrapper>
       </Wrapper>

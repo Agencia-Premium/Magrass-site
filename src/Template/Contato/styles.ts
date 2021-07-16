@@ -5,14 +5,23 @@ export const Container = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
-  margin-top: 6rem;
+  margin: 6rem 0;
   flex-direction: column;
   justify-content: center;
 
   .content {
-    @media screen and (min-width: 1100px) {
+    width: 100%;
+    @media screen and (min-width: 1024px) {
       display: flex;
       width: 100%;
+    }
+    .formulario {
+      width: 100%;
+      padding: 0 2rem;
+
+      @media screen and (min-width: 1024px) {
+        width: 60%;
+      }
     }
   }
 
@@ -37,13 +46,12 @@ export const Container = styled.div`
       }
     }
   }
-
-  .formulario {
-    width: 100%;
-    padding: 0 2rem;
-
-    @media screen and (min-width: 1200px) {
-      width: 60%;
+  @media screen and (min-width: 1024px) {
+    .description {
+      p {
+        width: 80%;
+        font-size: 1.8rem;
+      }
     }
   }
 `;
@@ -55,31 +63,48 @@ export const CardContainer = styled.div`
   padding: 0 2rem;
   margin: 0 auto;
 
-  h2 {
-    color: #00b5b3;
-    font-size: 1.8rem;
-    text-align: center;
-    margin: 2rem 0;
+  .title {
+    h2 {
+      color: #00b5b3;
+      font-size: 1.8rem;
+      text-align: center;
+      margin: 2rem 0;
+    }
   }
 
   @media screen and (max-width: 1300px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  @media screen and (max-width: 766px) {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   @media screen and (max-width: 760px) {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 2rem;
-    padding: 0;
-  }
-
-  @media screen and (min-width: 1100px) {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    @media screen and (max-width: 1020px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+
+    @media screen and (max-width: 670px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 `;

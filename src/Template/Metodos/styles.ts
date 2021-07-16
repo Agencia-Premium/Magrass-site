@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #d6d6d6;
+  background-color: #caf4f5;
 
   .containerText {
     margin: 10rem 0 5rem 0;

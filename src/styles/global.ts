@@ -25,6 +25,7 @@ export default createGlobalStyle`
     /* font-size: 100%;
     font: inherit; */
     vertical-align: baseline;
+    scroll-behavior: smooth;
   }
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure, 
@@ -34,6 +35,7 @@ export default createGlobalStyle`
   body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    
   }
   ol, ul {
     list-style: none;

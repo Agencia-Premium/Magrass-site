@@ -13,12 +13,12 @@ export default function NavBar(): JSX.Element {
   return (
     <Container>
       <MenuMobile isOpen={isOpen} toggle={toggle} />
-      <img className="logo--" src="./logoMagrass.svg" />
+      <img className="logo--" src="./logoSobre.svg" />
       <nav className="navbar">
-        <a href="/">Método Magrass</a>
-        <a href="/">Sobre nós</a>
-        <a href="/">Depoimentos</a>
-        <a href="/">Contato</a>
+        <a href="#metodo-magras">Método Magrass</a>
+        <a href="#sobre">Sobre nós</a>
+        <a href="#presente">Presente MagraSS</a>
+        <a href="#contato">Contato</a>
         <a
           className="icon--instagram"
           href="https://www.instagram.com/magrassjiparana/?hl=pt-br"

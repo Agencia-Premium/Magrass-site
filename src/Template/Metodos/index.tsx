@@ -4,7 +4,7 @@ import Card from "../../Components/Card";
 
 export default function Metodo() {
   return (
-    <Container>
+    <Container id="metodo-magras">
       <div className="containerText">
         <h2 className="title--text">Método MagraSS</h2>
 

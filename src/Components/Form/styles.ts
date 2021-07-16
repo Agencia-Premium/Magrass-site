@@ -13,6 +13,22 @@ export const Container = styled.div`
     border-radius: 1rem;
     box-shadow: 0 4px 10px rgba(92, 99, 105, 0.2);
 
+    @media screen and (max-width: 800px) {
+      width: 70%;
+    }
+
+    @media screen and (max-width: 500px) {
+      width: 100%;
+    }
+
+    @media screen and (min-width: 1024px) {
+      width: 70%;
+    }
+
+    @media screen and (min-width: 1400px) {
+      width: 50%;
+    }
+
     h2 {
       font-weight: bold;
       margin-bottom: 3rem;
@@ -70,6 +86,10 @@ export const Container = styled.div`
         left: 0.8rem;
         font-weight: 500;
         z-index: 10;
+
+        @media screen and (max-width: 340px) {
+          font-size: 11px;
+        }
       }
     }
 

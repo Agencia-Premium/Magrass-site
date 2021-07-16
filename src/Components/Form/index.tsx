@@ -108,7 +108,7 @@ export default function Form() {
   return (
     <>
       <Container>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} id="formMagrass">
           <h2>Formulario Magrass de Atendimento</h2>
 
           <div className="containerInput">
@@ -213,13 +213,13 @@ export default function Form() {
             </label>
           </div>
 
-          <button type="submit">
+          <button type="submit" id="buttonToSolite">
             <img src="./buttonEnviar.svg" alt="Send Form" /> Enviar
           </button>
 
           <div className="separator">OU</div>
 
-          <button type="button" onClick={sendWhatsapp}>
+          <button type="button" onClick={sendWhatsapp} id="buttonToWhatsapp">
             <img src="./buttonZap.svg" alt="Contact whatsapp" /> Entrar em
             contato via WhatsApp
           </button>

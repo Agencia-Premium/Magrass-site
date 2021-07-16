@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  background-color: aliceblue;
+  background-color: #ffffff;
   padding: 10rem 0;
 
   .Container--Text {
@@ -25,7 +25,6 @@ export const Container = styled.div`
       font-size: 1.2rem;
       line-height: 1.5rem;
       text-align: justify;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       margin: 2.5rem 0;
       span {
         color: #00b5b3;
@@ -34,8 +33,15 @@ export const Container = styled.div`
   }
   @media screen and (min-width: 1299px) {
   }
-
+  //tablet
   @media screen and (max-width: 769px) {
+    .Container--Text {
+      display: flex;
+      align-items: center;
+      .text--Description {
+        width: 80%;
+      }
+    }
   }
 
   @media screen and (min-width: 1025px) {
@@ -43,9 +49,9 @@ export const Container = styled.div`
       display: flex;
       align-items: center;
       .text--Description {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         line-height: 2.4rem;
-        width: 80%;
+        width: 70%;
       }
     }
   }
@@ -57,8 +63,9 @@ export const ContainerCardGif = styled.div`
   padding: 0 2rem;
   margin: 0 auto;
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (min-width: 1300px) {
     grid-template-columns: repeat(2, 1fr);
+    padding: 0 20rem;
   }
 
   @media screen and (max-width: 766px) {
